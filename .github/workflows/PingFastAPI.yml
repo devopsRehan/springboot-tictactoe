@@ -2,7 +2,7 @@ name: Ping FastAPI Handler
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # Every 30 minutes
+    - cron: "*/50 * * * *" # Every 50 minutes
   workflow_dispatch: # Allow manual trigger
 
 jobs:
